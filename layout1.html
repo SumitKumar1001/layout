@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+    background-color: black;
+}
+.main{
+    width: 966px;
+    height: 897px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+#nu{
+    color: red;
+    font-size: 10px;
+}
+#ser{
+    color: red;
+    font-size: 10px;
+}
+.top{
+    text-align: center;
+}
+.top-1{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 100px;
+}
+.img-1{
+    float: left;
+}
+.img-2{
+    float: left;
+    margin-left: 100px;
+}
+.img-3{
+    float: right;
+}
+.blog{
+    overflow: auto;
+    margin-top: 30px;
+}
+.date{
+    color: gray;
+}
+.about{
+    font-weight: bold;
+}
+.view{
+    margin-top: 30px;
+    text-align: center;
+}
+#post{
+    height: 20px;
+    width: 100px;
+    background-color: orangered;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+.top-2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.top-b{
+    display: flex;
+}
+#textcol{
+    color: gray;
+}
+@media screen and (max-width: 100%) {
+    .body {
+        width: 100%;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="top">
+            <div id="nu">NEWS & UPDATE</div>
+            <h2>Our Blog Posts</h2>
+        </div>
+        <div class="blog">
+            <div class="img-1">
+                <img src="https://via.placeholder.com/250x150" alt="">
+                <div class="date">29 January 2019</div>
+                <div class="about">Architectural Art Modern</div>
+            </div>
+            <div class="img-2">
+                <img src="https://via.placeholder.com/250x150" alt="">
+                <div class="date">29 January 2019</div>
+                <div class="about">Architectural Art Modern</div>
+            </div>
+            <div class="img-3">
+                <img src="https://via.placeholder.com/250x150" alt="">
+                <div class="date">29 January 2019</div>
+                <div class="about">Architectural Art Modern</div>
+            </div>
+        </div>
+        <div class="view">
+            <div id="post">View All Posts</div>
+        </div>
+
+        <div class="services">
+            <div class="top-1">
+                <div id="ser">SERVICES</div>
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, explicabo, quasi. Magni deserunt sunt labore.</p>
+            </div>
+            <div class="top-2">
+                <div>
+                    <h4>Innovative Structure</h4>
+                    <p id="textcol">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
+                </div>
+                <div>
+                    <h4>Architectural Design</h4>
+                    <p id="textcol">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
+                </div>
+                <div>
+                    <h4>Interior Design</h4>
+                    <p id="textcol">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>
+                    <h4>Modern Window Design</h4>
+                    <p id="textcol">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
+                </div>
+                <div>
+                    <h4>Experts Architect</h4>
+                    <p id="textcol">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
+                </div>
+                <div>
+                    <h4>Sofa Design</h4>
+                    <p id="textcol">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
